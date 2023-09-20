@@ -2,7 +2,7 @@ kind: Service
 apiVersion: v1
 metadata:
   name: tutorial-server
-  namespace: default
+  namespace: argocd-apps-github
 spec:
   type: LoadBalancer
   selector:
