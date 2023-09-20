@@ -5,7 +5,7 @@ metadata:
     app: tutorial-server
     app.kubernetes.io/instance: argocd-tutorial
   name: tutorial-server
-  namespace: default
+  namespace: argocd-apps-github
 spec:
   replicas: 2
   selector:
